@@ -1,0 +1,99 @@
+.container
+{
+    margin-top: 10px; 
+    width: 600px;
+    /* height: 800px; */
+    margin-bottom: 10px;
+    padding: 10px; 
+    
+}
+.cardItem{
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 100%;
+    box-shadow:  2px 1px 3px 4px gray;
+    
+}
+
+a.hover{
+    color: white;
+}
+.divider-text
+{
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span{
+    position: relative;
+    padding: 7px;
+    font-size: 12px;
+    z-index: 2;
+}
+.divider-text::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left:0;
+    z-index: 1;
+}
+
+.divider-text::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    right:0;
+    z-index: 1;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.btn-google{
+    background-color: rgb(43, 79, 238);
+    border-color: rgb(43, 79, 238);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.btn-facebook{
+    background-color: #3b5998;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-twitter{
+    background-color: #55acee;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
